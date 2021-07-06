@@ -94,5 +94,6 @@ After each model we found the accuracy score,balnced accuracy score and also did
         </tr>
     </table>
 </body>
+## Neural Network
 
 
