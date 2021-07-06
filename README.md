@@ -1,12 +1,13 @@
 # Sentimental Analysis
 
 Sentiment analysis (or opinion mining) is a NLP technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs.
+<img src="images/sentimentanalysishotelgeneric-scaled.jpg" >
 
 ## About the Project
 
 In this project we have performed sentimental analysis on a dataset of covid tweets containing 179108 tweets with 13 different features including user name,user description ,user location etc.
 The models used include Naive Bayes, LSTM, Random Forest and XGBoost.
-Feature extraction has been done using 2 algorithms namely Bag of words and TfidfVectorizer.
+Feature extraction has been done using 2 algorithms namely Bag of words and Tfidf Vectorizer.
 The train data has been created by using TextBlob.
   
 ## Data Visualization
@@ -96,7 +97,7 @@ After each model we found the accuracy score,balnced accuracy score and also did
 </body>
 
 ## Neural Network
-
+We have created a Neural Network consisting of LSTM, embedding, batchNormlization, Desnsely connected layers. The batchNormlization and Desnsely connected layers have been used twice.
 <body>
     <table>
         <tr>
