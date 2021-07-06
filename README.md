@@ -47,4 +47,52 @@ We have converted text to lowercase, removed text in square brackets,removed lin
         </tr>
     </table>
 </body>
-## 
+
+## Modelling 
+Different models were used and it was observed that the Tfidf Vectorizer was not a good feature extractor for this dataset.
+After each model we found the accuracy score,balnced accuracy score and also did hyperparamater tuning in some cases.
+<body>
+    <table>
+        <tr k>
+            <th>Model </th>
+            <th>Hyperparameter Tuning</th>
+            <th>Feature Extractor </th>
+            <th>Accuracy Score</th>
+            <th>Balanced Accuracy Score</th>
+        </tr>
+        <tr>
+            <td>Guassian Naive bayes	
+            </td>
+            <td>None</td>
+            <td>Bag of Words
+            </td>
+            <td>0.692759</td>
+            <td>0.636655</td>
+        </tr>
+        <tr>
+            <td>Guassian Naive bayes	</td>
+            <td>None</td>
+            <td>Tfidf Vectorizer</td>
+              <td>0.613757	</td>
+              <td>0.565149</td>
+        </tr>
+        <tr>
+            <td>Random Forest</td>
+            <td>None</td>
+            <td>Bag of Words
+            </td>
+              <td>0.736251</td>
+              <td>0.676058</td>
+        </tr>
+        <tr>
+            <td>Random Forest</td>
+            <td>Randomized Search Cv	</td>
+            <td>Tfidf Vectorizer
+            </td>
+              <td>0.635475</td>
+              <td>0.676058</td>
+        </tr>
+    </table>
+</body>
+
+
