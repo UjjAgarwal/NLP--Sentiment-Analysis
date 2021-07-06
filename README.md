@@ -94,6 +94,33 @@ After each model we found the accuracy score,balnced accuracy score and also did
         </tr>
     </table>
 </body>
+
 ## Neural Network
+
+<body>
+    <table>
+        <tr>
+            <th>Tuning by keras Tuner </th>
+            <th>Best Accuracy Score</th>
+            <th>Best Val_Accuracy Score </th>
+        </tr>
+        <tr>
+            <td>Before	
+            </td>
+            <td>0.9312</td>
+            <td>0.9034</td>
+        </tr>
+        <tr>
+            <td>After</td>
+            <td>0.9213</td>
+            <td>0.9002</td>
+        </tr>
+    </table>
+</body>
+<img src="images/plot14.jpg" >
+      
+
+
+
 
 
